@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanos | Inicio</title>
+    <link rel="stylesheet" href="./Css/index.css">
+    <link rel="icon" href="./img/Logo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll">
+    <!-- formulario login  -->
+    <div class="formulario-login">
+        
+        <form action="" id="loginForm">
+            <div class="botones"> 
+
+                <img src="./img/Logo2.png" alt="logo2" width="100" height="100">
+            </div>
+            <div>
+                <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                <input type="email" id="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            </div>
+            <div>
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" id="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <br>
+            <div class="botones">
+                <button type="submit" id="login_btn"class="btn btn-primary">Ingresar</button>
+                <br>
+                <a style="text-decoration: none;" href="./components/signUp.html">
+                    <p style="font-size: 15px;">Crear cuenta</p>
+                </a>
+            </div>
+        </form>
+    </div>
+    <!-- fin formulario -->
+
+
+    <!-- collage -->
+    <div class="container contenedor">
+        <div class="row">
+            <div class="co-6 p-2 mt-3" style="margin-top: 40px !important;">
+                <img class="foto" src="./img/gato.jpg" alt="Gato" width="300" height="250">  
+                <img class="foto" src="./img/Perro.jpg" alt="perritu" width="300" height="250">
+            </div>
+
+            <div class="col-3">
+
+            </div>
+
+            <div class="col-1">
+                <img class="alignRight" src="./img/Logo.png" alt="loguito" width="100" height="100">
+
+
+            </div>
+        </div>
+    </div>
+    
+
+    <br><br>
+    <div class="container" id="whoWeAre">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-12 description">
+            </div>
+            <div class="col-md-6 col-lg-6 col-12">
+                <img class="img-people"src="./img/fondos.jpg" alt="team" width="670px" height="700px">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <script src="./js/login.js"></script>
+
+</body>
+
+</html>
